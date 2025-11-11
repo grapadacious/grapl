@@ -1,0 +1,10 @@
+services:
+  app:
+    image: grapadacious/grapl-ts
+    build:
+      context: .
+    command: "npx ts-node ./src/main.ts"
+    pull_policy: never
+    working_dir: "/usr/src/app"
+    volumes:
+      - ../../playgrounds/ts:/usr/src/app/src
