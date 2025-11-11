@@ -1,0 +1,7 @@
+services:
+  app:
+    image: "nginx:1.28-alpine"
+    ports:
+      - 8080:80
+    volumes:
+      - ../../playgrounds/web:/usr/share/nginx/html:ro
