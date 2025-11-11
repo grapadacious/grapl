@@ -42,6 +42,8 @@ bin/grapl ts
 bin/grapl web
 ```
 
+Visit `http://localhost:8080` to view the running website. Any changes made to the `web` playground will be reflected on refresh. There is no need to restart the server.
+
 ### Configuration
 
 There is an example `.env` file called `.env.example`. You can copy that file to specify versions other than the defaults for the different runtimes.
