@@ -13,8 +13,8 @@ This repo provides several code playgrounds under the `playgrounds` directory wh
 Once you've made your changes, you can run your playground by using the scripts in the `bin` directory like this:
 
 ```sh
-bin/js
-bin/python
-bin/ruby
-bin/ts
+bin/grapl js
+bin/grapl python
+bin/grapl ruby
+bin/grapl ts
 ```

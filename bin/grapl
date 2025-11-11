@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [[ "$1" =~ ^(js|python|ruby|ts)$ ]]; then
+    docker compose -f "$(dirname "$(dirname "$(realpath $0)")")"/.docker/$1/docker-compose.yml run --rm app
+else
+    echo "$1 is not supported"
+fi

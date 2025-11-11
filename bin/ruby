@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-docker compose -f "$(dirname "$(dirname "$(realpath $0)")")"/.docker/ruby/docker-compose.yml run --rm app
