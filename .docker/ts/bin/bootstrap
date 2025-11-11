@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+source $ROOT_DIR/.docker/.shared/bin/bootstrap
+
+VERSION=$GRAPL_NODE_VERSION
+APP_PATH=$ROOT_DIR/.docker/ts
+
+source $ROOT_DIR/.docker/.shared/bin/compose

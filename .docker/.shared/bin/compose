@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+MAJOR_VERSION=${VERSION%.*}
+MAJOR_VERSION=${MAJOR_VERSION%.*}
+
+for template_path in $APP_PATH/templates/*; do
+  file_path=$APP_PATH/$(basename ${template_path})
+
+  cp $template_path $file_path
+
+  content=$(<$file_path)
+  content=${content//"{VERSION}"/$VERSION}
+  content=${content//"{MAJOR_VERSION}"/$MAJOR_VERSION}
+
+  echo "$content" > $file_path
+done

@@ -1,7 +1,0 @@
-services:
-  app:
-    image: "ruby:3.4-alpine"
-    command: "ruby main.rb"
-    working_dir: "/usr/src/app"
-    volumes:
-      - ../../playgrounds/ruby:/usr/src/app

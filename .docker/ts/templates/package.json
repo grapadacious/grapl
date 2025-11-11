@@ -1,8 +1,8 @@
 {
   "private": true,
   "devDependencies": {
-    "@tsconfig/node24": "^24.0.0",
-    "@types/node": "^24.0.0",
+    "@tsconfig/node{MAJOR_VERSION}": "^{MAJOR_VERSION}.0.0",
+    "@types/node": "^{MAJOR_VERSION}.0.0",
     "ts-node": "^10.9.2",
     "tslib": "^2.8.1",
     "typescript": "^5.9.3"
