@@ -1,0 +1,9 @@
+docker-compose.yml
+Dockerfile
+package.json
+tsconfig.json
+
+!/**/templates/*
+
+!/ts/docker-compose.yml
+!/web/docker-compose.yml
