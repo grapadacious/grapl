@@ -1,0 +1,7 @@
+services:
+  app:
+    image: "node:24-alpine"
+    command: "node main.js"
+    working_dir: "/usr/src/app"
+    volumes:
+      - ../../playgrounds/js:/usr/src/app
