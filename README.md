@@ -10,7 +10,7 @@ This repo uses `docker compose` to run playgrounds. If you don't already have Do
 
 This repo provides several code playgrounds under the `playgrounds` directory where you can write code to run via the provided runtimes. You can even create new files and import them into the `main` file. Open the `main` file for the language of your choice in your favorite editor and start writing.
 
-Once you've made your changes, you can run your playground by using the scripts in the `bin` directory.
+Once you've made your changes, you can run your playground using `bin/grapl` with the relevant command.
 
 #### JavaScript
 
