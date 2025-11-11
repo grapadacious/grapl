@@ -19,3 +19,5 @@ bin/grapl ruby
 bin/grapl ts
 bin/grapl web
 ```
+
+### Configuration

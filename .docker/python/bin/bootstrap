@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+source $ROOT_DIR/.docker/.shared/bin/bootstrap
+
+VERSION=$GRAPL_PYTHON_VERSION
+APP_PATH=$ROOT_DIR/.docker/python
+
+source $ROOT_DIR/.docker/.shared/bin/compose
