@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+node "$(dirname "$(dirname "$(realpath $0)")")"/playgrounds/js/main.js

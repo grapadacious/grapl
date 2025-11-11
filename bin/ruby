@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+ruby "$(dirname "$(dirname "$(realpath $0)")")"/playgrounds/ruby/main.rb
