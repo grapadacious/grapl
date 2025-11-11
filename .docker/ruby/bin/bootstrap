@@ -5,4 +5,8 @@ source $ROOT_DIR/.docker/.shared/bin/bootstrap
 VERSION=$GRAPL_RUBY_VERSION
 APP_PATH=$ROOT_DIR/.docker/ruby
 
+if [ -z "$VERSION" ]; then
+  VERSION="3.4"
+fi
+
 source $ROOT_DIR/.docker/.shared/bin/apply

@@ -21,3 +21,5 @@ bin/grapl web
 ```
 
 ### Configuration
+
+There is an example `.env` file called `.env.example`. You can copy that file to specify versions other than the defaults for the different runtimes.
